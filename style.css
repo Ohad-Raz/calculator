@@ -1,0 +1,272 @@
+#calculatorDiv {
+  height: 35rem;
+  width: 28rem;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(46, 45, 45);
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 15% 15% 15% 15% 15%;
+  grid-template-areas:
+    "screenCal screenCal screenCal screenCal"
+    "plus minus multiplys divide"
+    "seven eight nine equals"
+    "four five six equals"
+    "one two three equals"
+    "zero1 point ac equals";
+}
+
+#screen1 {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  grid-area: screenCal;
+  background-size: cover;
+  background-color: rgb(41, 38, 38);
+  border: solid rgb(164, 150, 150) 1px;
+  border-bottom: none;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 4rem;
+}
+
+#plus {
+  grid-area: plus;
+  background-size: cover;
+  background-color: rgb(222, 204, 192);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#minus {
+  grid-area: minus;
+  background-size: cover;
+  background-color: rgb(222, 204, 192);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#multiplys {
+  grid-area: multiplys;
+  background-size: cover;
+  background-color: rgb(222, 204, 192);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#divide {
+  grid-area: divide;
+  background-size: cover;
+  background-color: rgb(222, 204, 192);
+  border: solid rgb(164, 150, 150) 1px;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#seven {
+  grid-area: seven;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#eight {
+  grid-area: eight;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nine {
+  grid-area: nine;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#four {
+  grid-area: four;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#five {
+  grid-area: five;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#six {
+  grid-area: six;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#one {
+  grid-area: one;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#two {
+  grid-area: two;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#three {
+  grid-area: three;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  border-bottom: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#zero1 {
+  grid-area: zero1;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 1rem;
+}
+
+#point {
+  grid-area: point;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ac {
+  grid-area: ac;
+  background-size: cover;
+  background-color: rgb(228, 221, 216);
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#equals {
+  background-color: rgb(197, 114, 14);
+  background-size: cover;
+  grid-area: equals;
+  border-bottom-right-radius: 1rem;
+  border: solid rgb(164, 150, 150) 1px;
+  border-right: none;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onHover:hover {
+  box-shadow: inset 1px 1px 5px black;
+}
